@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLaMA Code Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LLaMA Code Generator</h1>
+        <form id="generate-form" action="/generate" method="post">
+            <textarea name="prompt" placeholder="Enter your prompt here..." rows="6" cols="50"></textarea>
+            <br><br>
+            <button type="submit">Generate Code</button>
+        </form>
+
+        <div id="loading" style="display: none;">Generating code... Please wait.</div>
+
+        {% if generated_code %}
+            <div class="output-container">
+                <h2>Generated Code:</h2>
+                <pre>{{ generated_code }}</pre>
+            </div>
+        {% endif %}
+    </div>
+
+    <script>
+        const form = document.getElementById("generate-form");
+        const loadingDiv = document.getElementById("loading");
+
+        form.addEventListener("submit", function() {
+            loadingDiv.style.display = "block";  // Show loading message
+        });
+    </script>
+</body>
+</html>
