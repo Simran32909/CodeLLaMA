@@ -9,7 +9,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name)
 
 app = Flask(__name__)
 
-executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)  # Run the model inference in a separate thread
+executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
 
 def generate_code_async(prompt, temperature, max_length):
     inputs = tokenizer(prompt, return_tensors="pt", truncation=True, padding=True)
