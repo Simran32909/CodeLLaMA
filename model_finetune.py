@@ -27,7 +27,7 @@ def load_and_tokenize_dataset(dataset_name, tokenizer):
                               padding="max_length",
                               truncation=True,
                               max_length=MAX_LENGTH,
-                              return_attention_mask=True)  # Ensure attention mask is returned
+                              return_attention_mask=True)
         encodings['labels'] = encodings['input_ids'].copy()
         return encodings
 
