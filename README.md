@@ -94,7 +94,7 @@ This makes LoRA ideal for adapting large models like LLaMA on resource-constrain
 
 ### Application in This Project
 
-In this project, we fine-tuned the LLaMA 3.2 1B model for code generation using LoRA. Here’s how LoRA was applied:
+In this project,I fine-tuned the LLaMA 3.2 1B model for code generation using LoRA. Here’s how LoRA was applied:
 
 - **Target Modules**: Updates were restricted to specific layers in the transformer architecture, such as `q_proj` and `v_proj` (Query and Value projection layers in attention mechanisms).
 - **Hyperparameters**:
