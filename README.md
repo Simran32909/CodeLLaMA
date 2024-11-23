@@ -1,4 +1,4 @@
-# LLaMA3.2-1B Code Generator
+# CodeLLaMA
 
 This project fine-tunes a LLaMA-based language model for generating code snippets based on user-provided prompts. The application provides an intuitive web interface for users to input prompts and receive relevant, functional code as output.
 
@@ -27,8 +27,8 @@ This project fine-tunes a LLaMA-based language model for generating code snippet
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Simran32909/Llama3.2-1B-CodeGen.git
-   cd Llama3.2-1B-CodeGen
+   git clone https://github.com/Simran32909/CodeLLaMA.git
+   cd CodeLLaMA
 
 2. **Set up a virtual environment and install dependencies:**
    ```bash
