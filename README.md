@@ -1,4 +1,4 @@
-# CodeLLaMA
+# 🦙CodeLLaMA
 
 This project fine-tunes a LLaMA-based language model for generating code snippets based on user-provided prompts. The application provides an intuitive web interface for users to input prompts and receive relevant, functional code as output.
 
