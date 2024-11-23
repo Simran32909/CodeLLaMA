@@ -52,5 +52,4 @@ This project fine-tunes a LLaMA-based language model for generating code snippet
 ## Example Prompt and Output
 ![](output_results/Screenshot%202024-11-22%20.png)
 
-![](output_results/Screenshot%2024-11-22%233521.png)
-
+![](output_results/Screenshot_2024-11-22_233521.png)
