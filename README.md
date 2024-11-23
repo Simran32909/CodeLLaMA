@@ -50,4 +50,7 @@ This project fine-tunes a LLaMA-based language model for generating code snippet
 3. **Enter your prompt and click Generate to receive code output.**
 
 ## Example Prompt and Output
-![](output_results/Screenshot 2024-11-22 .png)
+![](output_results/Screenshot%202024-11-22%20.png)
+
+![](output_results/Screenshot 2024-11-22 233521.png)
+
