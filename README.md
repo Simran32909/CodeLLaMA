@@ -117,7 +117,7 @@ LoRA capitalizes on the observation that many weight updates during fine-tuning 
 Contributions are welcome! Feel free to fork the repository and submit a pull request for any enhancements or bug fixes.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License, Version 2.0
 
 ## Acknowledgments
 - [Meta AI](https://meta.ai) for the LLaMA model.
